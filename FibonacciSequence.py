@@ -1,0 +1,10 @@
+a,b=0,1
+n=int(input('Enter the number of terms in fibonacci series to be printed:\n'))
+print(a,',',b,end="")
+i=0
+while i<=(n-3):
+    c=a+b
+    print(',',c,end="")
+    a=b
+    b=c
+    i=i+1
